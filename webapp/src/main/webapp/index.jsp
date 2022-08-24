@@ -1,2 +1,11 @@
-<h1> hello This is my first CI/CD pipeline</h1>
-<h1> Thanks to Valaxy Technologies !!! </h1>
+<html>
+    <head>
+        <title>Hello---World</title>
+    </head>
+    <body>
+        <h1>Hello!, this is my first CI/CD project</h1>
+        <h2>Thanks to Valaxy Technologies!</h2>
+    </body>
+</html>
+
+
