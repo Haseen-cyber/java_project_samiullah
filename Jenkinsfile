@@ -19,7 +19,7 @@ pipeline {
         stage("Deploy on Test") {
             steps {
                 //deploy to containers
-                deploy adapters: [tomcat9(credentialsId: 'Tomcat_credential', path: '', url: 'http:54.90.82.10:8090/')], contextPath: null, war: '**/*.war'
+                deploy adapters: [tomcat9(credentialsId: 'Tomcat_credential', path: '', url: 'http://54.90.82.10:8090/')], contextPath: null, war: '**/*.war'
             }
         }        
     }
